@@ -3,16 +3,13 @@
 
 #include <string>
 
-namespace Tanzanite
+namespace Tanzanite::Tokenizer::Utils
 {
-    namespace Tokenizer
-    {
-        namespace Utils
-        {
-            std::string readFile(std::string name);
-        }
-    }
+    std::string readFile(std::string name);
 }
 
+namespace Tanzanite::Tokenizer {
+    
+}
 
 #endif
