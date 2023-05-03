@@ -1,1 +1,11 @@
-puts "Hello World"
+puts "Hello \"World\""
+
+def print (var1)
+  puts var1
+end
+
+for i in 1..10 do
+  unless i == 5
+    print i
+  end
+end
